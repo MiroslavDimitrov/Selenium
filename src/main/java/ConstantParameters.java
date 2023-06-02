@@ -1,5 +1,3 @@
-package org.selenium;
-
 /**
  * This class contains a constant variables, so we avoid using hardcoded variables, strings etc.
  */
