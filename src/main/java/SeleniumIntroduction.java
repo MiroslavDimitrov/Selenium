@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -30,6 +31,12 @@ public class SeleniumIntroduction {
         WebDriver driver = new EdgeDriver();
         driver.get(ConstantParameters.URL);//get and open the target URL site
         driver.manage().window().fullscreen(); //browser goes to full screen
+        driver.findElement(By.xpath("/html/body/header/div[1]/div/div/div[2]/div[2]")).click();
+//        driver.findElement(By.xpath("//*[@name='sign_up_method']")).click();
+        driver.findElement(By.id("user_name")).sendKeys(ConstantParameters.USER_MAIL);
+
+        driver.manage().window().fullscreen();
+
         driver.close();//closes the current window, quit method closes all associated windows
     }
 }
