@@ -10,4 +10,5 @@ public class ConstantParameters {
     public static final String CHROME_KEY_PROPERTY = "webdriver.chrome.driver";
     public static final String EDGE_DRIVER_PATH = "C:\\Users\\miro\\Selenium\\WebDrivers\\Edge\\msedgedriver.exe";
     public static final String EDGE_KEY_PROPERTY = "webdriver.edge.driver";
+    public static final String USER_MAIL = "miroslav.dim.todorov@gmail.com";
 }

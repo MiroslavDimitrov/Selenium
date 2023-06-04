@@ -1,4 +1,4 @@
-package org.selenium;
+package org.selenium.common;
 
 public class MethodsDemoTwo {
     public static int getResult() {
