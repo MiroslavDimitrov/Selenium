@@ -30,6 +30,7 @@ public class SeleniumIntroduction {
 //        WebDriver driver = new FirefoxDriver();
         WebDriver driver = new EdgeDriver();
         driver.get(ConstantParameters.URL);//get and open the target URL site
+        driver.findElement(By.className("icon-link")).click();
         driver.manage().window().fullscreen(); //browser goes to full screen
         driver.findElement(By.xpath("/html/body/header/div[1]/div/div/div[2]/div[2]")).click();
 //        driver.findElement(By.xpath("//*[@name='sign_up_method']")).click();
